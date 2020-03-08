@@ -1,0 +1,335 @@
+/* ここから下に記載していく */
+.wrap {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    padding: 50px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 270px;
+    padding-left: 30px;
+}
+
+.navi ul {
+    width: 900px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navi li {
+    padding:50px 25px;
+}
+
+li > a {
+    font-size: 21px;
+    text-decoration: none;
+    color: #222;
+}
+
+li > a:visited {
+    color: #707070;
+}
+
+.mainvisual {
+    /* position: relative; */
+    width: 1200px;
+    background-image: url(../img/mainbg.png);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    height: 440px;
+}
+
+.message {
+    /* position: absolute;
+    top: 35%;
+    left:  20%; */
+    padding-top: 160px;
+}
+
+.main-message {
+    font-size: 42px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.sub-message {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.content {
+    text-align: center;
+}
+
+.en-title {
+    padding:60px 0 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a;
+}
+
+.black {
+    color: #222;
+}
+
+.ja-title {
+    font-size: 18px;
+    padding-bottom: 60px;
+    color: #222;
+}
+
+.description p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #222;
+    line-height: 2em;
+}
+
+.about-photo {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 1200px;
+}
+
+.a-photo {
+    width: 25%;
+}
+
+.course-outline {
+    width: 1200px;
+    padding-top: 20px;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.c-photo {
+    width: 50%;
+}
+
+.c-writing {
+    width: 50%;
+    text-align: left;
+}
+
+.c-writing h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.c-description {
+    width: 480px;
+    margin-left: 50px;
+}
+
+.c-description p {
+    margin-bottom: 0;
+}
+
+.detail-middle {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.article {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.tips {
+    width: 300px;
+    margin: 0 15px;
+}
+
+.tips :hover {
+    opacity: 0.7;
+}
+
+.tips dl {
+    font-size: 14px;
+    margin-bottom: 40px;
+    color: #222;
+    line-height: 2em;
+    text-align: left;
+}
+
+.tips dt {
+    margin: 30px 0 24px;
+}
+
+.tips dd > a {
+    text-decoration: none;
+}
+
+.tips dd > a:visited {
+    color: #707070;
+}
+
+.n-btn {
+    margin: 20px 0 60px;
+}
+
+.n-btn > button {
+    background-color: #ffd61a;
+    color: #fff;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+    line-height: 60px;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+}
+
+.n-btn > button:hover {
+    background-color: #777;
+}
+
+.access {
+    background-color: #fafafa;
+}
+
+table {
+    margin: 60px auto;
+    color: #222;
+}
+
+th {
+    text-align: left;
+    padding: 0 30px 30px 0;
+}
+
+td {
+    text-align: left;
+}
+
+.con-description p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #222;
+    line-height: 2em;
+    margin-bottom: 30px;
+}
+
+.formBox {
+    width: 640px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+form {
+    font-size: 16px;
+    color: #222;
+}
+
+form > dl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formDt {
+    box-sizing: border-box;
+    width: 240px;
+    height:52px;
+    padding: 8px 64px 8px 16px;
+    text-align: left;
+    line-height: 36px;
+    border-top: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+}
+
+.formDd {
+    box-sizing: border-box;
+    width: 400px;
+    height: 52px;
+    line-height: 36px;
+    text-align: left;
+    border-top: 1px solid #bfbfbf;
+    padding: 8px;
+}
+
+.startDt {
+    height: 63px;
+    line-height: normal;
+}
+
+.startDd {
+    height: 63px;
+    line-height: 48px;
+}
+
+.formLast {
+    border-bottom:  1px solid #bfbfbf;
+    height: 124px;
+}
+
+input , textarea {
+    display: inline-block;
+    width: 328px;
+ }
+
+input {
+    height: 20px;
+}
+
+.douki {
+    height: 180px;
+    width: 240px;
+}
+
+#kigyou , #jobchange , #skillup , #study {
+    width:16px;
+    vertical-align: middle;
+}
+
+.cB {
+    display: flex;
+    flex-direction: column;
+    height: 168px;
+    line-height: 40px;
+    white-space: nowrap;
+}
+
+footer {
+    background-color: #707070;
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.submit {
+    margin: 30px auto 140px;
+    background-color: #ffd61a;
+    color: #fff;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+}
+
+.submit:hover {
+    background-color: #777;
+}
